@@ -32,7 +32,7 @@ If OpenCV is installed in a non-standard location, point CMake to it with `-DOpe
 ### Usage
 
 ```bash
-./KentTracker <master.raw> <slave.raw> [key=value ...] [--adaptive]
+./KentTracker <cam1.raw> <cam2.raw> [key=value ...]
 ```
 
 The two `.raw` files are synchronized recordings from the master and slave cameras of the fisheye stereo rig. They are replayed in real time. The program shows three windows: the event frames of both cameras, and the unit sphere with the Kent estimate. On the sphere, cyan marks the mode/bearing, magenta the major axis ξ1 (heading) and yellow the minor axis ξ2. Press `Q` or `Esc` in a camera window to quit, or `H` to print the data-association statistics. The program also stops at the end of the recordings.
