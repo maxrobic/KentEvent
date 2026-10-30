@@ -65,7 +65,7 @@ Optional parameters:
 Example:
 
 ```bash
-./KentTracker master.raw slave.raw tag=seq1 log_dir=results --adaptive
+./KentTracker cam1.raw cam2.raw tag=seq1 log_dir=results --adaptive
 ```
 
 ### Output
